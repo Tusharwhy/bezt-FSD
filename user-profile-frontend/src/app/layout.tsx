@@ -1,7 +1,5 @@
-import type { Metadata } from "next";
-import localFont from "next/font/local";
-import "./globals.css";
-import { Providers } from "./providers";
+import "../app/globals.css";
+import { Providers } from "../lib/providers";
 
 export default function RootLayout({
   children,
