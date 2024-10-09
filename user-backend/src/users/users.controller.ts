@@ -10,6 +10,8 @@ import {
 import { UsersService } from './users.service';
 import { User, Prisma } from '@prisma/client';
 import { CreateUserInput } from '../interface/user.interface';
+
+// Controller File for various CRUD method
 @Controller('api/users')
 export class UsersController {
   constructor(private readonly usersService: UsersService) {}
